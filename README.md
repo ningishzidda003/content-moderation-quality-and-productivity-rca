@@ -34,10 +34,10 @@ Day 14 | Preliminary findings shared | Recommendations presented to QA/Operation
 
 ## Root Cause Analysis
 Why did productivity decrease and quality drop?\
-1. Why agents spent significantly more time per case, but their decisions were frequently flagged as incorrect by auditors, causing frustration and retrials?\
-2. Why did the new policy on hate speech and negative stereotyping introduce highly subjective thresholds (e.g., differentiating contextual insults from serious violations), leading to inconsistent interpretations?\
-3.  Why were agent and auditor interpretations misaligned because the calibration session largely covered clear, “black and white” examples, but lacked sufficient practice on the new “gray area” borderline cases?\
-4. Why were the calibration materials prepared under the client’s strict deadline, leaving the quality assurance team with limited time to gather a diverse set of real-world examples for the workshop?\
+1. Why agents spent significantly more time per case, but their decisions were frequently flagged as incorrect by auditors, causing frustration and retrials?
+2. Why did the new policy on hate speech and negative stereotyping introduce highly subjective thresholds (e.g., differentiating contextual insults from serious violations), leading to inconsistent interpretations?
+3.  Why were agent and auditor interpretations misaligned because the calibration session largely covered clear, “black and white” examples, but lacked sufficient practice on the new “gray area” borderline cases?
+4. Why were the calibration materials prepared under the client’s strict deadline, leaving the quality assurance team with limited time to gather a diverse set of real-world examples for the workshop?
 5. Why, without a phased warm-up period, did agents apply stricter or more lenient internal heuristics than auditors, which only became visible after quality assurance scores declined a week later?
 
 ### Root Cause:
