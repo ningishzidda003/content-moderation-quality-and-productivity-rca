@@ -10,7 +10,7 @@ Productivity decreased by approximately 9% over a 2-week period, with average ha
 A significant drop in productivity across the team was observed following the implementation of updated content moderation guidelines that included hate speech, insults, and negative stereotypes. Agents needed additional time to interpret the new rules for edge cases that intensified with the new changes, resulting in increased handling times, higher escalation rates, and a noticeable backlog of requests. Quality scores also declined amid discord between agents’ and auditors’ thought processes.
 
 ## Impact
-Metrics affected:
+Metrics affected:\
 • Accuracy\
 • Handling Time\
 • Productivity\
@@ -33,7 +33,7 @@ Day 12 | RCA initiated | Data gathering & analysis started | Analyst\
 Day 14 | Preliminary findings shared | Recommendations presented to QA/Operations | Analyst
 
 ## Root Cause Analysis
-Why did productivity decrease and quality drop?\
+Why did productivity decrease and quality drop?
 1. Why agents spent significantly more time per case, but their decisions were frequently flagged as incorrect by auditors, causing frustration and retrials?
 2. Why did the new policy on hate speech and negative stereotyping introduce highly subjective thresholds (e.g., differentiating contextual insults from serious violations), leading to inconsistent interpretations?
 3.  Why were agent and auditor interpretations misaligned because the calibration session largely covered clear, “black and white” examples, but lacked sufficient practice on the new “gray area” borderline cases?
