@@ -14,14 +14,14 @@ Metrics affected:
 • Accuracy\
 • Handling Time\
 • Productivity\
-• Escalations\
+• Escalations
 
 ## KPI Analysis
 Metric | Before | After\
 Cases/day | 1100 | 1000\
 Avg HT | 23.3 | 34.7\
 Accuracy | 93.1 | 84.3\
-Escalations (daily avg) | 25 | 41\
+Escalations (daily avg) | 25 | 41
 
 ## Event Timeline
 Date | Event | Action | Owner\
@@ -30,7 +30,7 @@ Day 3-5 | Increase in escalated cases reported	| QA team began tracking | QA Lea
 Day 7 | AHT metrics begin rising | Monitored dashboards; flagged issue | Team Lead\
 Day 10 | Quality drops below 90% | Weekly performance review called | Operations Manager\
 Day 12 | RCA initiated | Data gathering & analysis started | Analyst\
-Day 14 | Preliminary findings shared | Recommendations presented to QA/Operations | Analyst\
+Day 14 | Preliminary findings shared | Recommendations presented to QA/Operations | Analyst
 
 ## Root Cause Analysis
 Why did productivity decrease and quality drop?\
@@ -41,14 +41,14 @@ Why did productivity decrease and quality drop?\
 5. Why, without a phased warm-up period, did agents apply stricter or more lenient internal heuristics than auditors, which only became visible after quality assurance scores declined a week later?\
 
 ### Root Cause:
-Calibrations that were not sufficiently explained before launch to quality assurance agents and auditors, combined with the lack of real-time reference tools, led to decision fatigue, slower decision-making, and a temporary decrease in alignment and quality.\
+Calibrations that were not sufficiently explained before launch to quality assurance agents and auditors, combined with the lack of real-time reference tools, led to decision fatigue, slower decision-making, and a temporary decrease in alignment and quality.
 
 ## Contributing Factors
 Process -> The policy was implemented all at once, without a phased “shadow” period for agents to gradually adjust.\
 People -> Natural variance in risk tolerance across agents; auditors applied stricter academic standards compared to operational agents.\
 Tools -> No quick reference pop-up in the tool for new definitions was available; agents had to rely on memory or external documents.\
 Data -> Escalation and quality trends were reviewed only weekly; misalignment was not detected early enough.\
-External Factors -> Strict implementation deadline, driven by the client, limited preparation time for comprehensive training materials.\
+External Factors -> Strict implementation deadline, driven by the client, limited preparation time for comprehensive training materials.
 
 ## Corrective Actions
 Action | Owner | Due Date\
@@ -57,7 +57,7 @@ Update your internal knowledge base (KB) with a simple decision tree logic for s
 Implement a daily 15-minute meeting in the middle of the workday for agents to ask questions about ambiguous situations they encountered | Team Lead | Day 2\
 Meetings to align auditor calibration criteria with operational realities (or vice versa) to ensure consistency during the moderation process | Operations Manager | Week 2\
 Update the daily performance dashboard to include a “Calibration Discrepancy Rate” (agent vs. auditor alerts) | Analyst | Week 2\
-Create quick quizzes at the start of the program to check agent status | QA | Week 1\
+Create quick quizzes at the start of the program to check agent status | QA | Week 1
 
 ## Expected Outcome
 Restore quality to 93% and reduce average handling time to under 28 seconds within 3 weeks through better agent-auditor alignment, practical decision-making guides, and daily feedback loops. Also, establish a protocol for future policy updates to prevent similar declines.
